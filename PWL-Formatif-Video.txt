@@ -1,0 +1,3 @@
+Hal-hal yang tidak saya pahami
+1. Kegunaan PDO dan ATR
+2. Kegunaan Catch dan Htmlspescialchars

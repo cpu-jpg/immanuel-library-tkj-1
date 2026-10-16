@@ -25,7 +25,7 @@ $pdo->commit();
 
 header("Location: ../../pages/books/index.php");
 
-   } catch (\Throwable $th) {
+   } catch (Throwable $e) {
     $pdo->rollBack();
     throw $e;
    } 

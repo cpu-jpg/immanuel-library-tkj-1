@@ -57,10 +57,6 @@ exit;
         $pdo->rollback();
         throw $e;
 
-    } catch (PDOException $e) {
-        $pdo->rollback();
-            throw e;  
-        
     }
 
     print_r($_POST);
